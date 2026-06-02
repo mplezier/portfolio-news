@@ -19,6 +19,11 @@
       "date": "2026-06-01",
       "article_count": 106,
       "unique_ticker_count": 55
+    },
+    {
+      "date": "2026-06-02",
+      "article_count": 122,
+      "unique_ticker_count": 49
     }
   ]
 }
