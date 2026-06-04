@@ -1,11 +1,6 @@
 {
   "history": [
     {
-      "date": "2026-05-28",
-      "article_count": 205,
-      "unique_ticker_count": 90
-    },
-    {
       "date": "2026-05-29",
       "article_count": 204,
       "unique_ticker_count": 91
@@ -24,6 +19,11 @@
       "date": "2026-06-03",
       "article_count": 140,
       "unique_ticker_count": 50
+    },
+    {
+      "date": "2026-06-04",
+      "article_count": 125,
+      "unique_ticker_count": 56
     }
   ]
 }
