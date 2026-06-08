@@ -1,76 +1,58 @@
 {
-  "date": "2026-06-05",
-  "generated_at_utc": "2026-06-05T14:07:12Z",
+  "date": "2026-06-08",
+  "generated_at_utc": "2026-06-08T14:12:11Z",
   "market_closed": false,
-  "article_count": 119,
-  "unique_ticker_count": 51,
+  "article_count": 69,
+  "unique_ticker_count": 34,
   "tickers_with_news": [
-    "ABT",
     "ADC",
     "ADC-PA",
-    "ADP",
+    "AKRBP.OL",
     "ALV.DE",
-    "AMT",
-    "AOS",
     "ARE",
-    "AWK",
     "BIPC.TO",
     "CLX",
-    "CTAS",
-    "CWEN",
     "DE.V",
-    "DTE.DE",
     "ECL",
-    "ENX.PA",
-    "ES",
+    "EQNR.OL",
     "ETN",
-    "FAST",
-    "HO.PA",
-    "IBE.MC",
-    "ITRK.L",
     "LGEN.L",
     "LMT",
     "LTC",
     "MAIN",
-    "MCO",
-    "MKC",
     "MSCI",
-    "MUV2.DE",
     "NOVO-B.CO",
     "O",
     "OKE",
-    "OR.PA",
     "PAYX",
     "PG",
     "POOL",
-    "RHM.DE",
+    "REN.AS",
     "RTX",
-    "SCI",
-    "SIE.DE",
     "SKM",
     "SPGI",
-    "SU.PA",
     "TTE.PA",
     "TXN",
+    "UGI",
     "VICI",
+    "VPK.AS",
     "WPC",
     "WSO",
     "ZTS"
   ],
   "per_source_counts": {
-    "Yahoo Finance": 54,
-    "Google News": 32,
-    "YouTube": 12,
-    "Finnhub": 8,
-    "TickerTick": 8,
-    "Marketaux": 5
+    "Google News": 31,
+    "TickerTick": 7,
+    "Yahoo Finance": 24,
+    "Finnhub": 5,
+    "Marketaux": 2
   },
   "per_exchange_total_counts": {
     "US": 49,
     ".V": 2,
     ".TO": 1,
     ".OL": 4,
-    ".AS": 8,
+    ".AS": 9,
     ".BR": 1,
     ".DE": 5,
     ".CO": 1,
@@ -82,7 +64,7 @@
     ".MC": 1,
     ".WA": 1
   },
-  "movers_count": 4,
+  "movers_count": 3,
   "sources_active": [
     "Yahoo Finance",
     "Google News",
@@ -93,9 +75,36 @@
     "Euronext",
     "GlobeNewswire"
   ],
-  "poison_hits": {
-    " ": 100,
-    ", ": 18,
-    ", and ": 2
+  "poison_hits": {},
+  "articles": {
+    "fetched": 135,
+    "after_relevance": 69,
+    "final_displayed": 61
+  },
+  "scores": {
+    "avg": 0.7,
+    "min": -3,
+    "max": 4,
+    "median": 0
+  },
+  "source_avg_score": {
+    "TickerTick": 1.71,
+    "Google News": 0.83,
+    "Yahoo Finance": 0.22,
+    "Marketaux": 1.0
+  },
+  "runtime_seconds": 715.4,
+  "api_keys_present": [
+    "FINNHUB_API_KEY",
+    "YOUTUBE_API_KEY",
+    "MARKETAUX_API_KEY"
+  ],
+  "source_fetch_errors": {
+    "Euronext": [
+      500,
+      500,
+      500,
+      500
+    ]
   }
 }
